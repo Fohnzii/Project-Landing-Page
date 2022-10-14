@@ -1,0 +1,24 @@
+.header,
+footer{
+    background-color: #1F2937;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+a,
+ul,
+.intro p{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
