@@ -2,23 +2,66 @@
 footer{
     background-color: #1F2937;
 }
-
+.header{
+    padding-left: 120px;
+    min-width: 946px;
+}
 h1{
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    margin: 0px 0px -5px 0px;
+    padding: 20px 0px;
 }
-
+.header .nav,
+ul{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    justify-content: space-between;
+}
 a,
 ul,
 .intro p{
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     list-style: none;
     font-size: 18px;
     color: #e5e7eb;
 }
-
+ul{
+    padding-right: 80px;
+}
+li{
+    padding: 10px;
+}
 .headerlogo{
     font-size: 24px;
     color: #F9FAF8;
+    padding-top: 10px;
 }
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.text{
+    width: 400px;
+}
+
+p,
+button{
+    margin-top: -45px;
+}
+.intro .img{
+    box-sizing: border-box;
+    padding: 12px 90px 24px 0px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 256px;
+}
+
+
+
