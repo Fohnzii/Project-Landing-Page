@@ -1,9 +1,19 @@
+body{
+    min-height: 100vh;
+}
+.wrapall{
+    display: flex;
+    flex-flow: column wrap;
+    height: 1100px;
+    flex-grow: 1;
+}
 .header,
 footer{
     background-color: #1F2937;
 }
 .header{
     min-width: 946px;
+    flex: 2;
 }
 h1{
     font-size: 48px;
@@ -65,5 +75,113 @@ button{
     height: 256px;
 }
 
+figure{
+    flex: 1;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    lex-flow: row wrap;
+}
 
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.quote q{
+    font-size: 36px;
+}
+.quote strong{
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.pictures{
+    flex: 1;
+}
+.one,
+.two,
+.three,
+.four{
+  width: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  padding: 8px;
+}
+figcaption{
+    padding: 10px;
+}
+
+.bang{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dang{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+    background-color: #3882f6;
+    padding: 20px;
+    height: 100px;
+    width: 600px;
+    border-radius: 25px;
+    color: white;
+    gap: 20px;
+}
+.dang button{
+    margin-bottom: 15px;
+    justify-content: flex-end;
+}
+.buttonbud{
+    justify-content: flex-end;
+    padding-left: 100px;
+}
+.done{
+    padding-right: 117px;
+}
+.dang .one{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+.break{
+    flex-basis: 100%;
+    height: 0;
+    padding-left: 50px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+figure{
+    display: flex;
+}
+
+ footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-content: flex-end;
+    align-items: center;
+    height: 50px;
+ }
+button{
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 8px;
+}
 
