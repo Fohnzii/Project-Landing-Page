@@ -3,7 +3,6 @@ footer{
     background-color: #1F2937;
 }
 .header{
-    padding-left: 120px;
     min-width: 946px;
 }
 h1{
@@ -40,9 +39,12 @@ li{
     font-size: 24px;
     color: #F9FAF8;
     padding-top: 10px;
+    justify-content: flex-start;
+    padding-left: 120px;
 }
 
 section{
+    padding-left: 120px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
