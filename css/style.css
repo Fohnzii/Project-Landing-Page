@@ -171,11 +171,16 @@ figure{
 
  footer{
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     color: white;
-    align-content: flex-end;
+    align-content: center;
     align-items: center;
     height: 50px;
+ }
+ .footsies{
+    position: relative;
+    bottom: 0;
  }
 button{
     background-color: #3882f6;
